@@ -5,7 +5,11 @@
 * Nilai Akhir diambil dari perhitungan 3 komponen nilai (tugas: 30%, uts: 35%, uas: 35%)
 * Buat flowchart dan penjelasan programnya pada README.md.
 
-## Programnya :
+## Flowchartnya:
+
+![Alt text](Flowchart.jpg)
+
+## Programnya:
 ``````python
 # LIST
 nama = []
@@ -47,6 +51,6 @@ for nama, nim, Tugas, UTS, UAS, nilaiAkhir in zip(nama, nim, nilaiTugas, nilaiUT
     print("| {0:>2} | {1:<18} | {2:>8} | {3:>6} | {4:>5} | {5:>5} | {6:>7} |".format(no, nama, nim, Tugas, UTS, UAS, nilaiAkhir))
 print("+----+-----------------------+--------+--------+-------+-------+---------+")
 ``````
-### Outputnya :
+### Outputnya:
 
 ![Alt text](praktikum.png)
